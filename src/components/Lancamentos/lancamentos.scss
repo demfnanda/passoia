@@ -1,0 +1,82 @@
+.box-cores {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.img-lateral {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-between;
+    padding-right: 20px;
+
+    img {
+        width: 130px;
+    }
+}
+
+.img-cor {
+    height: 500px;
+}
+
+.card-lancamentos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: fit-content;
+    height: 500px;
+    justify-content: space-around;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    margin: 30px;
+    padding: 20px;
+    font-family: 'Roboto';
+
+    .img-estrelas {
+        width: 110px;
+    }
+
+    h3 {
+        font-size: 24px;
+        color: #2D2D2D;
+    }
+
+    .sub {
+        font-size: 10px;
+    }
+
+    .mostruario {
+        display: flex;
+        gap: 10px;
+    }
+
+    .img-circulo {
+        width: 55px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .descricao-lancamento {
+        font-size: 16px;
+        width: 420px;
+        text-align: justify;
+    }
+
+
+
+    button {
+        background-color: transparent;
+        border: none;
+    }
+}
