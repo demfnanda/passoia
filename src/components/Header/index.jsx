@@ -1,9 +1,11 @@
-
+import "./header.scss"
+import logopassoia from "../../assets/Logo-passoia.png"
 
 function Header (){
+
     return(
         <header>
-            <img src="" alt="logo da marca da pagina" />
+            <img src={logopassoia} alt="Logo Passoia" />
             <ul>
                 <li>LOOKS</li>
                 <li>LANÇAMENTOS</li>

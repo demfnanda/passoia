@@ -1,0 +1,29 @@
+header {
+    //border: solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .5);
+    padding: 20px 30px;
+
+    min-width: 100vw;
+    position: sticky;
+    background-color: #fff;
+
+
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        gap: 25px;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+
+    }
+}

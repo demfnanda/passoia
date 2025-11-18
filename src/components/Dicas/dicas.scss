@@ -1,0 +1,35 @@
+
+#looks {
+    h2 {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 40px;
+    }
+
+    .cards-dicas {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-top: 20px;
+
+        img {
+            max-width: 320px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #looks {
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .cards-dicas {
+            gap: 15px;
+            img {
+                max-width: 150px;
+            }
+        }
+    }
+}
