@@ -1,6 +1,8 @@
 // hooks são funçoes especiais do react;
 //useState controla os estados de algo na interface
 import { useState } from "react";
+import "./lancamentos.scss";
+
 
 //IMPORT DAS IMAGENS:
 import vermelho from "../../assets/vermelho.png";
@@ -26,6 +28,7 @@ function Lancamentos(){
 
     return(
         <section id="lancamentos">
+            
             <h2>APROVEITE OS LANÇAMENTOS</h2>
 
             <div className="box-cores">
@@ -34,6 +37,7 @@ function Lancamentos(){
                 <img src={imgbatom2} alt="" />
                 <img src={imgbatom3} alt="" />
             </div>
+            
             <img src={cor} alt="" className="img-cor"/>
 
             <div className="card-lancamentos">

@@ -1,9 +1,10 @@
 .box-cores {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;        
     align-items: center;
     justify-content: center;
-    padding: 35px;
+    gap: 40px;                 
+    padding: 50px 0;
 }
 
 h2 {
@@ -13,70 +14,54 @@ h2 {
     text-align: center;
 }
 
+
 .img-lateral {
     display: flex;
     flex-direction: column;
-    height: 500px;
-    justify-content: space-between;
-    padding-right: 20px;
+    justify-content: center;
+    gap: 30px;                
+}
 
-    img {
-        width: 130px;
-    }
+.img-lateral img {
+    width: 140px;
+    border-radius: 6px;
 }
 
 .img-cor {
-    height: 500px;
+    height: 420px;           
+    object-fit: cover;
 }
 
 .card-lancamentos {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    max-width: fit-content;
-    height: 500px;
-    justify-content: space-around;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
-    margin: 30px;
-    padding: 20px;
-    font-family: 'Roboto';
+    gap: 18px;
+    width: 460px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
+    background: white;
+}
 
-    .img-estrelas {
-        width: 110px;
-    }
+.card-lancamentos h3 {
+    font-size: 26px;
+}
 
-    h3 {
-        font-size: 24px;
-        color: #2D2D2D;
-    }
+.img-estrelas {
+    width: 120px;
+}
 
-    .sub {
-        font-size: 10px;
-    }
+.mostruario {
+    display: flex;
+    gap: 15px;
+}
 
-    .mostruario {
-        display: flex;
-        gap: 10px;
-    }
+.img-circulo {
+    width: 55px;
+}
 
-    .img-circulo {
-        width: 55px;
-    }
-
-    h4 {
-        font-size: 20px;
-    }
-
-    .descricao-lancamento {
-        font-size: 16px;
-        width: 420px;
-        text-align: justify;
-    }
-
-
-
-    button {
-        background-color: transparent;
-        border: none;
-    }
+.descricao-lancamento {
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.5;
 }
