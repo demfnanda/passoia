@@ -65,3 +65,58 @@ h2 {
     font-size: 16px;
     line-height: 1.5;
 }
+
+/* --- MOBILE --- */
+
+@media (max-width: 768px) {
+
+    #lancamentos {
+        h2 {
+            font-size: 20px;
+        }
+
+        .box-cores {
+            height: auto;
+            padding-bottom: 0;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 0 20px;
+            gap: 20px;
+        }
+
+        .img-cor {
+            width: 60vw;
+            height: auto;
+        }
+
+        .img-lateral {
+            display: none;
+        }
+
+        .card-lancamentos {
+            width: 95vw;
+            align-items: center;
+            height: auto;
+            gap: 10px;
+            padding: 20px 30px;
+            
+            .descricao-lancamento {
+                font-size: 13px;
+                width: auto;
+            }
+
+            h3 {
+                font-size: 16px;
+                font-weight: 600;
+            }
+
+            h4 {
+                font-size: 15px;
+                font-weight: 600;
+            }
+
+        
+        }
+    }
+}

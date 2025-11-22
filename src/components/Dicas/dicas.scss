@@ -33,3 +33,19 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    #looks {
+
+        h2 {
+            font-size: 20px;
+        }
+
+        .cards-dicas {
+            gap: 15px;
+            img {
+                max-width: 150px;
+            }
+        }
+    }
+}
